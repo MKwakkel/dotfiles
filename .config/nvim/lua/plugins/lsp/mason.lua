@@ -28,7 +28,7 @@ return {
     mason_lspconfig.setup({
       -- list of servers for mason to install
       ensure_installed = {
-        "pkgbuild_language_server",
+        -- "pkgbuild_language_server",
         "clangd", -- C / C++
         "esbonio", -- sphinx
         "neocmake", -- cmake
@@ -62,6 +62,7 @@ return {
         "black", -- python formatter
         "pylint", -- python linter
         "eslint_d", -- js linter
+        "clang-format",
       },
       -- auto-install configured servers (with lspconfig)
       automatic_installation = true,
