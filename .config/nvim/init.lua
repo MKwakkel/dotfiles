@@ -15,7 +15,7 @@ if version == nil or required_version == nil or vim.version.lt(version, required
   vim.api.nvim_err_writeln(msg)
 end
 
-vim.g.python3_host_prog = "/usr/bin/python3"
+vim.g.python3_host_prog = "/usr/local/bin/python3"
 
 require("core")
 require("lazy-setup")
