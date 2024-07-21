@@ -22,6 +22,8 @@ return {
         -- ensure these language parsers are installed
         ensure_installed = {
           "json",
+          "cpp",
+          "c",
           "javascript",
           "typescript",
           "tsx",
@@ -37,7 +39,9 @@ return {
           "lua",
           "vim",
           "dockerfile",
+          "vimdoc",
           "gitignore",
+          "query",
         },
         -- auto install above language parsers
         auto_install = true,
